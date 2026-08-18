@@ -40,10 +40,11 @@ tag = "v2-backup-transfer-runner"
 new_sqlite_classes = [ "BackupTransferRunner" ]
 [vars]
 JWT_SECRET = "d8F#m2!kX9$vP6@zQ4*bN1&jU3(eR5)hY7_aW9%qL2^sM4"
-SMTP_HOST = "://163.com"
-SMTP_PORT = 465
-SMTP_FROM = "test_fake_email@163.com"
-SMTP_USERNAME = "test_fake_email@163.com"
-SMTP_PASSWORD = "FakePassword123456"
+SMTP_HOST = "127.0.0.1"
+SMTP_PORT = 25
+SMTP_FROM = "system@local.internal"
+SMTP_USERNAME = "disabled"
+SMTP_PASSWORD = "disabled"
 SEND_EMAIL = "false"
 REQUIRE_EMAIL_VERIFICATION = "false"
+DISABLE_EMAIL = "true"
